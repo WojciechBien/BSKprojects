@@ -3,7 +3,4 @@
   <PropertyGroup>
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
   </PropertyGroup>
-  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)docfx.console\2.58.0\build\docfx.console.targets" Condition="Exists('$(NuGetPackageRoot)docfx.console\2.58.0\build\docfx.console.targets')" />
-  </ImportGroup>
 </Project>

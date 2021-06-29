@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mtp673\\source\\repos\\bsk_zadania\\bsk_zadania\\bsk_zadania.csproj": {}
+    "C:\\Users\\mtp673\\Desktop\\BSKprojects\\bsk_zadania\\bsk_zadania.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mtp673\\source\\repos\\bsk_zadania\\bsk_zadania\\bsk_zadania.csproj": {
+    "C:\\Users\\mtp673\\Desktop\\BSKprojects\\bsk_zadania\\bsk_zadania.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mtp673\\source\\repos\\bsk_zadania\\bsk_zadania\\bsk_zadania.csproj",
+        "projectUniqueName": "C:\\Users\\mtp673\\Desktop\\BSKprojects\\bsk_zadania\\bsk_zadania.csproj",
         "projectName": "bsk_zadania",
-        "projectPath": "C:\\Users\\mtp673\\source\\repos\\bsk_zadania\\bsk_zadania\\bsk_zadania.csproj",
+        "projectPath": "C:\\Users\\mtp673\\Desktop\\BSKprojects\\bsk_zadania\\bsk_zadania.csproj",
         "packagesPath": "C:\\Users\\mtp673\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mtp673\\source\\repos\\bsk_zadania\\bsk_zadania\\obj\\",
+        "outputPath": "C:\\Users\\mtp673\\Desktop\\BSKprojects\\bsk_zadania\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mtp673\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,14 +40,6 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "dependencies": {
-            "docfx.console": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.58.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
