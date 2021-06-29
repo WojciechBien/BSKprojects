@@ -32,7 +32,7 @@ namespace bsk_zadania
         }
 
         private void button3_Click(object sender, EventArgs e)
-        {
+        { 
             tabControlWithoutHeader1.SelectedTab = tabControlWithoutHeader1.TabPages[2];
         }
 
@@ -201,6 +201,23 @@ namespace bsk_zadania
             _projekt3 = new projekt_3();
             var rsaDialog = new RSAdialog(_projekt3.Encrypt(textBox5.Text),_projekt3);
             rsaDialog.ShowDialog();
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            provideIterations form = new provideIterations();
+            if (form.ShowDialog()==DialogResult.OK)
+            {
+                projekt_4 pr4 = new projekt_4();
+                pr4.process(form.Iterations);
+                ResultForm res = new ResultForm(pr4.time,pr4.Iterations.ToString(),pr4.Average.ToString()+"%");
+                res.Show();
+            }
         }
     }
 }

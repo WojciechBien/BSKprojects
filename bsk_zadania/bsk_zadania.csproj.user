@@ -7,6 +7,12 @@
     <Compile Update="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="provideIterations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ResultForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="RSAdialog.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -16,3 +16,5 @@ C:\Users\mtp673\source\repos\bsk_zadania\bsk_zadania\obj\Debug\netcoreapp3.1\bsk
 C:\Users\mtp673\source\repos\bsk_zadania\bsk_zadania\obj\Debug\netcoreapp3.1\bsk_zadania.csprojAssemblyReference.cache
 C:\Users\mtp673\source\repos\bsk_zadania\bsk_zadania\obj\Debug\netcoreapp3.1\bsk_zadania.dialogKey.resources
 C:\Users\mtp673\source\repos\bsk_zadania\bsk_zadania\obj\Debug\netcoreapp3.1\bsk_zadania.RSAdialog.resources
+C:\Users\mtp673\source\repos\bsk_zadania\bsk_zadania\obj\Debug\netcoreapp3.1\bsk_zadania.provideIterations.resources
+C:\Users\mtp673\source\repos\bsk_zadania\bsk_zadania\obj\Debug\netcoreapp3.1\bsk_zadania.ResultForm.resources
